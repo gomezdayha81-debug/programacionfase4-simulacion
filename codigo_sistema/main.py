@@ -103,4 +103,9 @@ def ejecutar_simulador():
     registrar_log("SISTEMA", "Simulación finalizada exitosamente.")
 
 if __name__ == "__main__":
+  if __name__ == "__main__":
+    import os
     ejecutar_simulador()
+    print("\n[RUTA] El archivo errores.log se guardó en:")
+    print(os.path.abspath("errores.log"))
+    input("\nPresiona Enter para cerrar...")
